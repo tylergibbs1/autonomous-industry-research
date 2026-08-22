@@ -1,0 +1,82 @@
+{
+  "abort_criteria": [
+    "timeout",
+    "non-finite metric",
+    "unregistered experiment",
+    "worker failure"
+  ],
+  "analysis": "Paired mean difference with normal-approximation 95% confidence interval across fixed seeds.",
+  "comparator": {
+    "power_mw": 8.0,
+    "round_trip_efficiency": 0.9,
+    "storage_capacity_mwh": 24.0
+  },
+  "environment": "Synthetic 168-hour demand, solar, and wind trajectories",
+  "execution_policy": {
+    "code": "registered_only",
+    "external_writes": "none",
+    "network": "not_used; hardened isolation requires container/microVM",
+    "secrets": "cleared_child_environment"
+  },
+  "experiment_id": "toy-energy-storage-v1",
+  "experiment_version": "1",
+  "falsification_rule": "Falsify if mean relative reduction is below 0.15 or any output is non-finite.",
+  "hypothesis_id": "hyp-storage-capacity",
+  "intervention": {
+    "power_mw": 8.0,
+    "round_trip_efficiency": 0.9,
+    "storage_capacity_mwh": 48.0
+  },
+  "minimum_effect": 0.15,
+  "preregistered_at": "2026-08-22T15:45:08+00:00",
+  "primary_metric": "relative_reduction_unmet_mwh",
+  "replications": 30,
+  "resource_limits": {
+    "cpu_seconds": 15,
+    "file_size_mb": 10,
+    "memory_mb": 512,
+    "wall_seconds": 20
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "python": "3.14.6"
+  },
+  "schema_version": "1.0",
+  "secondary_metrics": [
+    "mean_unmet_mwh",
+    "mean_curtailed_mwh",
+    "reliability"
+  ],
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130
+  ]
+}

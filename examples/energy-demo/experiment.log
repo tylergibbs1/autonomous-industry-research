@@ -1,0 +1,7 @@
+command=["python3","research_harness.py","_worker","--spec","<sandbox>/experiment-spec.json","--output","<sandbox>/experiment-results.json"]
+exit_code=0
+duration_seconds=0.060588
+--- stdout ---
+{"result_digest":"b2985d8e05d2d695bc92f362a8e5ef007eaf6412fab743a673529ea966b5d8e4","status":"ok"}
+
+--- stderr ---

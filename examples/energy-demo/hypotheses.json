@@ -1,0 +1,24 @@
+{
+  "hypotheses": [
+    {
+      "assumptions": [
+        "Synthetic trajectories are adequate for a workflow demo",
+        "Greedy dispatch is fixed across arms"
+      ],
+      "comparator": "24 MWh storage, 8 MW power",
+      "falsification_rule": "Mean relative reduction below 0.15 or any non-finite output.",
+      "id": "hyp-storage-capacity",
+      "intervention": "48 MWh storage, 8 MW power",
+      "minimum_effect": 0.15,
+      "primary_metric": "relative_reduction_unmet_mwh",
+      "statement": "In the toy 168-hour environment, increasing storage energy capacity from 24 to 48 MWh while holding power at 8 MW will reduce mean unmet demand by at least 15% across paired seeds.",
+      "status": "preregistered",
+      "supporting_claim_ids": [
+        "fixture-tech-1",
+        "fixture-gap-1",
+        "fixture-impact-1"
+      ]
+    }
+  ],
+  "schema_version": "1.0"
+}

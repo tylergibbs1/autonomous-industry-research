@@ -1,0 +1,77 @@
+{
+  "opportunities": [
+    {
+      "gap_status": "illustrative_only",
+      "id": "opp-storage-sizing",
+      "rationale": "A safe paired simulation can demonstrate the workflow, but fixture evidence cannot establish a real gap.",
+      "risk_penalty": 0.25,
+      "scores": {
+        "computational_tractability": 5.0,
+        "decision_value": 4.5,
+        "equity_access": 3.0,
+        "evidence_readiness": 3.5,
+        "neglectedness": 2.0,
+        "public_benefit": 4.0,
+        "time_to_impact": 3.5
+      },
+      "supporting_claim_ids": [
+        "fixture-tech-1",
+        "fixture-gap-1",
+        "fixture-impact-1"
+      ],
+      "title": "Stress-test storage sizing under variable synthetic supply",
+      "weighted_score": 3.475
+    },
+    {
+      "gap_status": "illustrative_only",
+      "id": "opp-demand-response",
+      "rationale": "Computationally tractable, but less directly supported by the fixture.",
+      "risk_penalty": 0.25,
+      "scores": {
+        "computational_tractability": 4.5,
+        "decision_value": 3.5,
+        "equity_access": 3.5,
+        "evidence_readiness": 2.5,
+        "neglectedness": 1.5,
+        "public_benefit": 3.5,
+        "time_to_impact": 3.0
+      },
+      "supporting_claim_ids": [
+        "fixture-impact-1",
+        "fixture-risk-1"
+      ],
+      "title": "Compare synthetic demand-response policies",
+      "weighted_score": 2.95
+    },
+    {
+      "gap_status": "rejected",
+      "id": "opp-grid-control",
+      "rationale": "Rejected because real-world actuation is outside the safe experiment boundary.",
+      "risk_penalty": 2.0,
+      "scores": {
+        "computational_tractability": 0.0,
+        "decision_value": 5.0,
+        "equity_access": 1.0,
+        "evidence_readiness": 0.0,
+        "neglectedness": 1.0,
+        "public_benefit": 4.0,
+        "time_to_impact": 0.5
+      },
+      "supporting_claim_ids": [
+        "fixture-risk-1"
+      ],
+      "title": "Autonomously control a real grid",
+      "weighted_score": 0.05
+    }
+  ],
+  "rubric_weights": {
+    "computational_tractability": 0.15,
+    "decision_value": 0.15,
+    "equity_access": 0.1,
+    "evidence_readiness": 0.1,
+    "neglectedness": 0.15,
+    "public_benefit": 0.25,
+    "time_to_impact": 0.1
+  },
+  "schema_version": "1.0"
+}

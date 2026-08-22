@@ -1,0 +1,78 @@
+{
+  "audited_at": "2026-08-22T15:45:08+00:00",
+  "checks": [
+    {
+      "actual": "1ad0dc9a2e3535629e4b0fdbd4f496e5d24f1ee3c2b5dae67057a01f960d3eff",
+      "check": "digest:events.jsonl",
+      "expected": "1ad0dc9a2e3535629e4b0fdbd4f496e5d24f1ee3c2b5dae67057a01f960d3eff",
+      "passed": true
+    },
+    {
+      "actual": "bc62d4fc49b717b99503de854bfef90590444497300f2239ffa553233f83cf4c",
+      "check": "digest:evidence.jsonl",
+      "expected": "bc62d4fc49b717b99503de854bfef90590444497300f2239ffa553233f83cf4c",
+      "passed": true
+    },
+    {
+      "actual": "5e775f46c71f3ce001ce6e3badb4a19544cf491dc7e764076ab64c24076477a0",
+      "check": "digest:experiment-results.json",
+      "expected": "5e775f46c71f3ce001ce6e3badb4a19544cf491dc7e764076ab64c24076477a0",
+      "passed": true
+    },
+    {
+      "actual": "3813a6d6c4ea8e56a115be80e107899585320c59ca256af404a9bafb84002c9a",
+      "check": "digest:experiment-spec.json",
+      "expected": "3813a6d6c4ea8e56a115be80e107899585320c59ca256af404a9bafb84002c9a",
+      "passed": true
+    },
+    {
+      "actual": "87407a141203892e3c88220dd4524e22e6442e04d711df6630fb51ad2a362712",
+      "check": "digest:experiment.log",
+      "expected": "87407a141203892e3c88220dd4524e22e6442e04d711df6630fb51ad2a362712",
+      "passed": true
+    },
+    {
+      "actual": "ca53815bb33380896e78f6b1b3b1dcd0ebcdce1c6da091b7af88d154231df91b",
+      "check": "digest:findings.md",
+      "expected": "ca53815bb33380896e78f6b1b3b1dcd0ebcdce1c6da091b7af88d154231df91b",
+      "passed": true
+    },
+    {
+      "actual": "f73ce03f9c5ea3e4957168535804e64cf75ba9c88678215861940be48e780ffd",
+      "check": "digest:hypotheses.json",
+      "expected": "f73ce03f9c5ea3e4957168535804e64cf75ba9c88678215861940be48e780ffd",
+      "passed": true
+    },
+    {
+      "actual": "7fa0468f286d4e6342221e3c75d1e074b281084d579e30b65c15441cea0202ad",
+      "check": "digest:opportunities.json",
+      "expected": "7fa0468f286d4e6342221e3c75d1e074b281084d579e30b65c15441cea0202ad",
+      "passed": true
+    },
+    {
+      "actual": "7002837f4dde4e7946b1358d6b099da990a5a9006273d24325e1caf43e5d0a56",
+      "check": "digest:research-plan.json",
+      "expected": "7002837f4dde4e7946b1358d6b099da990a5a9006273d24325e1caf43e5d0a56",
+      "passed": true
+    },
+    {
+      "actual": "toy-energy-storage-v1",
+      "check": "registered_experiment",
+      "passed": true
+    },
+    {
+      "actual": 30,
+      "check": "fixed_seeds",
+      "passed": true
+    },
+    {
+      "actual": 4,
+      "check": "evidence_schema_minimum",
+      "passed": true
+    }
+  ],
+  "limitations": "Hashes detect post-finalization mutation; they do not establish scientific truth or hardened sandboxing.",
+  "passed": true,
+  "run_dir": "examples/energy-demo",
+  "schema_version": "1.0"
+}

@@ -1,0 +1,49 @@
+{
+  "barriers": [
+    "evidence_deduplication",
+    "opportunity_ranking",
+    "final_synthesis"
+  ],
+  "budgets": {
+    "max_experiment_attempts": 1,
+    "max_parallel_workers": 5,
+    "max_searches_per_lane": 8,
+    "max_shortlisted_sources": 40
+  },
+  "industry": "energy",
+  "question": "Demonstrate safe research-gap ranking and a reproducible toy experiment",
+  "research_lanes": [
+    {
+      "id": "frontier",
+      "role": "Read-only frontier scout",
+      "stop": "Budget reached or two dry rounds"
+    },
+    {
+      "id": "technology",
+      "role": "Read-only technology scout",
+      "stop": "Budget reached or two dry rounds"
+    },
+    {
+      "id": "deployment",
+      "role": "Read-only deployment scout",
+      "stop": "Budget reached or two dry rounds"
+    },
+    {
+      "id": "humanitarian-need",
+      "role": "Read-only impact scout",
+      "stop": "Budget reached or two dry rounds"
+    },
+    {
+      "id": "failure-modes",
+      "role": "Read-only safety and skeptic scout",
+      "stop": "Budget reached or two dry rounds"
+    }
+  ],
+  "schema_version": "1.0",
+  "single_writer_stages": [
+    "curation",
+    "scoring",
+    "experiment_execution",
+    "reporting"
+  ]
+}

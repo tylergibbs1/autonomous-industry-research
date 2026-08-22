@@ -1,0 +1,22 @@
+{
+  "name": "autonomous-industry-research",
+  "version": "0.1.0",
+  "description": "Evidence-grounded industry research, gap prioritization, and safe reproducible computational experiments.",
+  "author": {
+    "name": "Tyler Gibbs",
+    "url": "https://github.com/tylergibbs1"
+  },
+  "repository": "https://github.com/tylergibbs1/autonomous-industry-research",
+  "license": "MIT",
+  "keywords": [
+    "research",
+    "multi-agent",
+    "scientific-method",
+    "experiments",
+    "reproducibility",
+    "safety"
+  ],
+  "skills": [
+    "./skills/research/autonomous-industry-research"
+  ]
+}

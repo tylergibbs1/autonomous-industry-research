@@ -1,0 +1,17 @@
+{
+  "name": "autonomous-industry-research",
+  "owner": {
+    "name": "Tyler Gibbs",
+    "url": "https://github.com/tylergibbs1"
+  },
+  "description": "Portable skills for safe autonomous computational research.",
+  "plugins": [
+    {
+      "name": "autonomous-industry-research",
+      "source": "./",
+      "description": "Investigate an industry, rank research gaps, and run bounded reproducible computational experiments.",
+      "category": "research",
+      "keywords": ["research", "agents", "experiments", "safety"]
+    }
+  ]
+}

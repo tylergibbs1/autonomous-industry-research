@@ -1,0 +1,4 @@
+interface:
+  display_name: "Autonomous Industry Research"
+  short_description: "Run safe, reproducible industry research"
+  default_prompt: "Use $autonomous-industry-research to investigate an industry, rank research gaps, and run a safe computational experiment."
